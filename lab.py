@@ -1,16 +1,11 @@
-import math
-#aceita ai meu pr
+data = int(input('coloca: '))
 
-x1 = float(input().split())
-x2 = float(input().split())
-y1 = float(input().split())
-y2 = float(input().split())
+ano = data / 365
 
-#Realiza os calculos#
+mes = (data % 365) / 30
 
-calx = (x2 - x1) * (x2 - x1)
-caly = (y2 - y1) * (y2 - y1)
+dia = (data % 365) % 30
 
-distancia = (calx + caly) ** 0.5
-
-print("{0:.4f}".format(distancia))
+print("{} ano(s)".format(int(ano)))
+print("{} mes(es)".format(int(mes)))
+print("{} dia(s)".format(int(dia)))
