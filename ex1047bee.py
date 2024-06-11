@@ -1,9 +1,8 @@
-# A VERIFICAR NO BEECROWD
 #a, b, c, d = map(int(), input().split())
 import sys
 a, b, c, d = map(int, input().split())
-inicio_minutos = (a * 60) + c
-termino_minutos = (b * 60) + d
+inicio_minutos = (a * 60) + b
+termino_minutos = (c * 60) + d
 resultado_minutos = termino_minutos - inicio_minutos
 
 if inicio_minutos == termino_minutos:
