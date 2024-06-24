@@ -9,3 +9,4 @@ while pum < number: # o segredo desse exercicio e exponenciar na segunda coluna 
     pum2 = int(pow (pum, 2))
     pum3 = int(pow (pum, 3))
     print(f'{pum} {pum2} {pum3}')
+    
