@@ -1,6 +1,6 @@
 matriz = []
-indice = int(input())
 soma_ou_media = input().upper()
+indice = int(input())
 soma = 0
 for i in range(12):
     linha = []
